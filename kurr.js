@@ -1107,11 +1107,11 @@ reply('http://youtube.com/c/KurrXd')
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
         if(menusimpel == false){
            stod = `${sender}`
-fill =`Hai Kak ${pushname}, ${tampilUcapan}
+fill =`Hai Tod ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
-Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan🏴‍☠️`
+Jika Buttonnya Tidak Muncul tod Ketik .allmenu`
+menu =` Caca Bot Assistan🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
@@ -1172,7 +1172,7 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
+       nama = '🏴‍☠️ Caca Bot Assistan 🏴‍☠️'
        ownerJid = "6281262411188@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
@@ -1182,7 +1182,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : caca Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1503,7 +1503,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© Caca Bot Assistan_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1760,7 +1760,7 @@ kurr.sendMessage(from, anu, image, { quoted: mek, thumbnail: fs.readFileSync('./
 break
 case 'foliokanan':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-if (!c) return reply('Textnya mana gan?')
+if (!c) return reply('Textnya mana tod?')
 sticWait(from)
 kon = (`https://hardianto-chan.herokuapp.com/api/foliokanan?text=${c}&apikey=hardianto`)
 anu = await getBuffer(kon)
